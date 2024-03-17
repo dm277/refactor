@@ -51,7 +51,7 @@ baseURL = &#39;/&#39; languageCode = &#39;cs-cz&#39; title = &#39;čn&#39; theme
 hugo create new site siteName # init git in emacs C-x g, get ananke git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke hugo new blog/welcome.md Teď musíme upravit hugo.toml:
 baseURL = &#39;/&#39; languageCode = &#39;cs-cz&#39; title = &#39;čn&#39; theme = &#39;ananke&#39; canonifyURLs = true SectionPagesMenu = &#39;main&#39; DefaultContentLanguage = &#39;cs&#39; [params] favicon = &#39;favicon.ico&#39; body_classes = &#39;avenir bg-near-white&#39; main říká starej se mi o menu, každá složka je jedna položka v menu."><meta itemprop="datePublished" content="2024-03-17T07:06:21+01:00" />
 <meta itemprop="dateModified" content="2024-03-17T07:06:21+01:00" />
-<meta itemprop="wordCount" content="251">
+<meta itemprop="wordCount" content="263">
 <meta itemprop="keywords" content="technika,hugo," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Jak vyrobit blog"/>
 <meta name="twitter:description" content="Hugo a Ananke na GitHub pages Používám Hugo. Recept na uvaření stránek vypadá asi takhle:
 hugo create new site siteName # init git in emacs C-x g, get ananke git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke hugo new blog/welcome.md Teď musíme upravit hugo.toml:
@@ -176,11 +176,13 @@ baseURL = &#39;/&#39; languageCode = &#39;cs-cz&#39; title = &#39;čn&#39; theme
 </span></span></code></pre></div><p>Tak už to něco bude dělat, tak teď už jenom dát to online. První co udělám, po otestování webu na lokálu, je vybrat stránky co chci dát na web a dát u drafts false.</p>
 <ul>
 <li>Přidám nový web do github desktop a pošlu ho na github a jdu na online GitHub</li>
+<li>potom už můžu commitovat přímo z emacs, magit push - P</li>
 <li>jdu do repository settings, pages, a upgraduju site na public</li>
 <li>z deployment vybrat github actions</li>
 <li>najít hugo action, komitnout jí</li>
 </ul>
 <p>Pak už to jede samo. Při každým dalším <em>commitu</em> stránek se spustí automaticky action a uploaduje na gitHub pages.</p>
+<p>🏄‍♂️</p>
 <ul class="pa0">
   
    <li class="list di">
