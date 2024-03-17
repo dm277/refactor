@@ -68,4 +68,4 @@ Tak už to něco bude dělat, tak teď už jenom dát to online. První co uděl
 - z deployment vybrat github actions
 - najít hugo action, komitnout jí
 
-Pak už to jede samo. 
+Pak už to jede samo. Při každým dalším *commitu* stránek se spustí automaticky action a uploaduje na gitHub pages.
