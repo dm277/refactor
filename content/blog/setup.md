@@ -64,5 +64,8 @@ categories:
 Tak už to něco bude dělat, tak teď už jenom dát to online. První co udělám, po otestování webu na lokálu, je vybrat stránky co chci dát na web a dát u drafts false.
 
 - Přidám nový web do github desktop a pošlu ho na github a jdu na online GitHub
+- jdu do repository settings, pages, a upgraduju site na public
+- z deployment vybrat github actions
+- najít hugo action, komitnout jí
 
-- jdu do repository settings, pages, ...
+Pak už to jede samo. 
