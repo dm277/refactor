@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Všechny možný věci, on čn</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Všechny možný věci, on čn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cs-cz</language>
+    <lastBuildDate>Sun, 17 Mar 2024 07:06:21 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jak vyrobit blog</title>
+      <link>//localhost:1313/blog/setup/</link>
+      <pubDate>Sun, 17 Mar 2024 07:06:21 +0100</pubDate>
+      <guid>//localhost:1313/blog/setup/</guid>
+      <description>Hugo a Ananke na GitHub pages Používám Hugo. Recept na uvaření stránek vypadá asi takhle:&#xA;hugo create new site siteName # init git, get ananke git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke hugo new blog/welcome.md Teď musíme upravit hugo.toml:&#xA;baseURL = &amp;#39;/&amp;#39; languageCode = &amp;#39;cs-cz&amp;#39; title = &amp;#39;čn&amp;#39; theme = &amp;#39;ananke&amp;#39; canonifyURLs = true SectionPagesMenu = &amp;#39;main&amp;#39; DefaultContentLanguage = &amp;#39;cs&amp;#39; [params] favicon = &amp;#39;favicon.ico&amp;#39; body_classes = &amp;#39;avenir bg-near-white&amp;#39; main říká starej se mi o menu, každá složka je jedna položka v menu.</description>
+    </item>
+  </channel>
+</rss>

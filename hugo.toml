@@ -1,0 +1,10 @@
+baseURL = '/'
+languageCode = 'cs-cz'
+title = 'čn'
+theme = 'ananke'
+canonifyURLs = true
+DefaultContentLanguage = 'cs'
+SectionPagesMenu = 'main'
+[params]
+  favicon = 'favicon.ico'
+  body_classes = 'avenir bg-near-white'
